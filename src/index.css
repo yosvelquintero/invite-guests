@@ -33,8 +33,3 @@ code {
   margin-right: auto;
   margin-left: auto;
 }
-
-h1 {
-  font-family: var(--font-family);
-  color: var(--text-color-primary);
-}
