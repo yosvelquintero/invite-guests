@@ -9,9 +9,11 @@ function App() {
         Edit <code>src/components/app/App.tsx</code> and save to reload.
       </p>
 
-      <a className='link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-        Learn React
-      </a>
+      <p>
+        <a className='link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
+          Learn React
+        </a>
+      </p>
     </div>
   );
 }
