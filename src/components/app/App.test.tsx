@@ -5,10 +5,8 @@ import App from './App';
 
 test('renders "React App"', () => {
   render(<App />);
-  const h1Element = screen.getByText((_, element) => {
-    return element?.textContent === 'React App';
-  });
-  expect(h1Element).toBeInTheDocument();
+  const headingElement = screen.getByRole('heading', { name: 'React App' });
+  expect(headingElement).toBeInTheDocument();
 });
 
 test('renders "Edit src/components/app/App.tsx and save to reload."', () => {
@@ -21,8 +19,6 @@ test('renders "Edit src/components/app/App.tsx and save to reload."', () => {
 
 test('renders "Learn React" link', () => {
   render(<App />);
-  const linkElement = screen.getByText((_, element) => {
-    return element?.textContent === 'Learn React';
-  });
+  const linkElement = screen.getByRole('link', { name: 'Learn React' });
   expect(linkElement).toBeInTheDocument();
 });
