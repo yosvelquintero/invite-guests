@@ -2,6 +2,8 @@
 
 This project implements the “Invite Guests” feature using React. It allows users to add guest emails, validates the inputs, prevents duplicates, and displays the list of invited guests with options to remove them. The interface is responsive and follows React best practices with a clean code structure.
 
+![ScreenshotInviteGuestsFeature](./ScreenshotInviteGuestsFeature.png)
+
 ## Getting Started
 
 Prerequisites
@@ -59,6 +61,10 @@ Technologies Used
 
 - React
 - TypeScript
+
+## Stay in touch
+
+- Author - [Yosvel Quintero](https://x.com/yosvelquintero)
 
 ## License
 
