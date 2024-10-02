@@ -4,11 +4,20 @@
     'Droid Sans', 'Helvetica Neue', sans-serif;
   --font-family-code: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 
-  /* Text colors */
-  --text-color-primary: #007bff;
-  --text-color-secondary: #6c757d;
-  --text-color-black: #000;
-  --text-color-white: #fff;
+  /* Color Palette */
+  --color-primary: #007bff;
+  --color-primary-hover: #0056b3;
+  --color-secondary: #6c757d;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-success: #388e3c;
+  --color-success-hover: #2e7d32;
+  --color-success-light: #e8f5e9;
+  --color-success-border: #66bb6a;
+
+  --color-error: #dc3545;
+  --color-error-alt: #d32f2f;
 }
 
 /* Body */
@@ -22,8 +31,8 @@ body {
 /* Code */
 code {
   font-family: var(--font-family-code);
-  color: var(--text-color-white);
-  background-color: var(--text-color-black);
+  color: var(--color-white);
+  background-color: var(--color-black);
   padding: 2px 4px;
 }
 
