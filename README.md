@@ -32,7 +32,39 @@ Prerequisites
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-#### Features
+## Testing
+
+To ensure the quality and functionality of the "Invite Guests" feature, we have included a suite of unit and integration tests. Follow the steps below to run the tests:
+
+### Running Tests
+
+1. **Run Tests**
+
+   Execute the following command to run all tests:
+
+   ```sh
+   npm run test
+   ```
+
+   This will run the tests using the configured test runner (e.g., Jest).
+
+2. **View Test Coverage**
+
+   ```sh
+   npm run test:cov
+   ```
+
+   After running the tests, you can view the test coverage by opening the generated coverage report. The report is located in the `coverage` directory.
+
+3. **Open Coverage Report**
+
+   ```sh
+   open coverage/lcov-report/index.html
+   ```
+
+This will open the coverage report in your default browser.
+
+## Features
 
 - Add Guest Emails: Users can input email addresses to invite guests.
 - Email Validation: Ensures that the entered email addresses are in the correct format.
@@ -40,14 +72,25 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 - Responsive Design: Optimized for various screen sizes, including mobile devices.
 - User Interface: Modern and clean UI using CSS variables and consistent theming.
 
-#### Project Structure
+### Project Structure
 
 Components:
 
-- **EmailInput**: Handles the email input field and validation messages.
-- **EmailChip**: Displays individual invited emails with a remove option.
-- **InvitedEmailsList**: Renders the list of invited emails.
-- **InviteGuestsButton**: Displays the “Invite Guests” button.
+- `components/app`
+
+  - **App**: Main component that renders the application.
+
+- `components/invite-guests`
+
+  - **InviteGuests**: Main component that manages the email list and input field.
+  - **EmailInput**: Handles the email input field and validation messages.
+  - **EmailChip**: Displays individual invited emails with a remove option.
+  - **InvitedEmailsList**: Renders the list of invited emails.
+  - **InviteGuestsButton**: Displays the “Invite Guests” button.
+
+hocs:
+
+- **withEmailManagement**: Higher-order component that provides email management functionality to child components.
 
 Hooks:
 
@@ -60,8 +103,9 @@ Styles:
 
 Technologies Used
 
-- React
-- TypeScript
+- [React](https://react.dev/): JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript that compiles to plain JavaScript.
+- [Jest](https://jestjs.io/): JavaScript testing framework.
 
 ## Stay in touch
 
