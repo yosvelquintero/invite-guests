@@ -1,8 +1,8 @@
-# Invite Guests Feature
+# Invite guests feature
 
 This project implements the “Invite Guests” feature using React. It allows users to add guest emails, validates the inputs, prevents duplicates, and displays the list of invited guests with options to remove them. The interface is responsive and follows React best practices with a clean code structure.
 
-![ScreenshotInviteGuestsFeature](./ScreenshotInviteGuestsFeature.png)
+![Invite guests feature](./ScreenshotInviteGuestsFeature.png)
 
 ## Getting Started
 
@@ -21,12 +21,13 @@ Prerequisites
 2. Install NPM packages
 
    ```sh
-    npm install
+     npm install
    ```
 
 3. Start the project
+
    ```sh
-    npm start
+   npm start
    ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
