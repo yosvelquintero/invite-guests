@@ -111,9 +111,12 @@
 }
 
 /* Hover Effects */
-.email-input-section button:hover:not(:disabled),
-.invite-user-group-button button:hover:not(:disabled) {
+.email-input-section button:hover:not(:disabled) {
   background-color: var(--color-primary-hover);
+}
+
+.invite-user-group-button button:hover:not(:disabled) {
+  background-color: var(--color-success-hover);
 }
 
 .email-chip button:hover {
