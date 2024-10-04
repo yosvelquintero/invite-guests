@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailChip Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="email-chip"
+  >
+    <span
+      class="email-text"
+    >
+      test@example.com
+    </span>
+    <button>
+      Remove
+    </button>
+  </div>
+</DocumentFragment>
+`;

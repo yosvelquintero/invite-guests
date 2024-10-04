@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailInput Component matches the snapshot when rendered with default props 1`] = `
+<DocumentFragment>
+  <div
+    class="email-input-section"
+  >
+    <input
+      placeholder="example@email.com"
+      type="email"
+      value=""
+    />
+    <button
+      disabled=""
+    >
+      Add
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`EmailInput Component matches the snapshot when rendered with duplicated email 1`] = `
+<DocumentFragment>
+  <div
+    class="email-input-section"
+  >
+    <input
+      placeholder="example@email.com"
+      type="email"
+      value="test@example.com"
+    />
+    <button
+      disabled=""
+    >
+      Add
+    </button>
+    <p
+      class="error-message"
+    >
+      The entered email already exists.
+    </p>
+  </div>
+</DocumentFragment>
+`;
